@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navmenu">
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="viagens.html">Viagens</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1 class="txtC">Contato</h1>
+        <br>
+        <form action="XX" method="post">
+            <fieldset>
+
+                <br>
+                <label class="tit" for="nome">Nome:</label> <br>
+                <input type="text" name="Nome" id="nome" size="50px" required placeholder="Nome completo" />
+                <br><br>
+                <label class="tit" for="dataViagem">Data da Viagem:</label> <br>
+                <input type="date" name="dataViagem" id="dataViagem" placeholder=" XX/XX/XX" />
+                <br><br>
+                <label class="tit" for="sexo">Sexo:</label> <br>
+                <input type="radio" name="sexo" value="F" id="sexoFeminino" /><label for="sexoFeminino">Feminino</label>
+                <br>
+                <input type="radio" name="sexo" value="M" id="sexoMasculino" /><label
+                    for="sexoMasculino">Masculino</label>
+                <br>
+                <input type="radio" name="sexo" value="N" id="sexoNenhum" /><label for="sexoNenhum">Prefiro não
+                    dizer</label>
+
+                <br><br>
+                <label class="tit" for="tell">Telefone:</label>
+                <input type="text" name="tell" id="tell" size="50px" required placeholder="Telefone" />
+                <br><br>
+                <label class="tit" for="email">E-mail:</label>
+                <input type="text" name="email" id="email" size="50px" required placeholder="E-mail" />
+                <br><br>
+                <label class="tit" for="viagem">Selecione o local da viagem:</label> <br>
+                <select name="viagem" id="viagem"> <br>
+                    <option value="chicago">Chicago/USA</option>
+                    <option value="rio">Rio de Janeiro/BR</option>
+                    <option value="lisboa">Lisboa/PT</option>
+                </select>
+                <br><br>
+                <label class="tit" for="obs">Observações:</label> <br>
+                <textarea name="obs" cols="60" rows="3" id="obs"></textarea>
+                <br><br>
+                <input name="btnEnvio" type="submit" value="Enviar" />
+                &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+                <input name="btnReset" type="reset" value="Limpar" />
+                <br><br>
+            </fieldset>
+            <br>
+            <footer class="main-footer">
+                <section class="foot-section">
+                    <h2>Contato</h2>
+                    <p>(19) 96169-9169</p>
+                    <p>suporte@agenciahorizontes.com</p>
+                </section>
+                <section class="foot-section">
+                    <h2>Endereço</h2>
+                    <p>Avenida Anevida</p>
+                    <p>São Paulo, SP</p>
+                </section>
+                <section class="foot-section">
+                    <h2>Funcionamento</h2>
+                    <p>Qua - Dom</p>
+                    <p>9h - 22h</p>
+                </section>
+                <br>
+                <p id="copyright">Copyright &copy; 2024 Agência Horizontes. All Rights Reserved</p>
+            </footer>
+        </form>
+
+</body>
+
+</html>
